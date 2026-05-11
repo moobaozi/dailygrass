@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DailyGrass</title>
-    <link>https://dailygrass.netlify.app/categories/</link>
+    <link>https://moobaozi.github.io/dailygrass/categories/</link>
     <description>Recent content in Categories on DailyGrass</description>
-    <image>
-      <title>DailyGrass</title>
-      <url>https://dailygrass.netlify.app/images/og-default.png</url>
-      <link>https://dailygrass.netlify.app/images/og-default.png</link>
-    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://dailygrass.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 11 May 2026 17:12:00 +0000</lastBuildDate>
+    <atom:link href="https://moobaozi.github.io/dailygrass/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Economy &amp; Trade</title>
+      <link>https://moobaozi.github.io/dailygrass/categories/economy--trade/</link>
+      <pubDate>Mon, 11 May 2026 17:12:00 +0000</pubDate>
+      <guid>https://moobaozi.github.io/dailygrass/categories/economy--trade/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elections</title>
+      <link>https://moobaozi.github.io/dailygrass/categories/elections/</link>
+      <pubDate>Mon, 11 May 2026 17:12:00 +0000</pubDate>
+      <guid>https://moobaozi.github.io/dailygrass/categories/elections/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>International Relations</title>
+      <link>https://moobaozi.github.io/dailygrass/categories/international-relations/</link>
+      <pubDate>Mon, 11 May 2026 17:12:00 +0000</pubDate>
+      <guid>https://moobaozi.github.io/dailygrass/categories/international-relations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Policy &amp; Legislation</title>
+      <link>https://moobaozi.github.io/dailygrass/categories/policy--legislation/</link>
+      <pubDate>Mon, 11 May 2026 17:12:00 +0000</pubDate>
+      <guid>https://moobaozi.github.io/dailygrass/categories/policy--legislation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>US Politics</title>
+      <link>https://moobaozi.github.io/dailygrass/categories/us-politics/</link>
+      <pubDate>Mon, 11 May 2026 17:12:00 +0000</pubDate>
+      <guid>https://moobaozi.github.io/dailygrass/categories/us-politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>World Affairs</title>
+      <link>https://moobaozi.github.io/dailygrass/categories/world-affairs/</link>
+      <pubDate>Mon, 11 May 2026 17:12:00 +0000</pubDate>
+      <guid>https://moobaozi.github.io/dailygrass/categories/world-affairs/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

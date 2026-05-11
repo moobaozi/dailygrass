@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="single-article">
+<div class="page-header">
+<div class="breadcrumbs"><a href="{{ "/" | absURL }}">Home</a> / <a href="{{ "/posts/" | absURL }}">Posts</a></div>
+<h1>{{ .Title }}</h1>
+<div class="article-meta"><span>{{ .Date.Format "January 2, 2006" }}</span><span>{{ .ReadingTime }} min read</span><span>{{ .WordCount }} words</span></div>
+{{ with .Params.tags }}<div class="tags">{{ range . }}<a href="{{ "/tags/" | absURL }}{{ . | urlize }}" class="tag">{{ . }}</a>{{ end }}</div>{{ end }}
+</div>
+<div class="content">{{ .Content }}</div>
+</article>
+{{ end }}

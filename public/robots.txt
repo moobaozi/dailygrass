@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://dailygrass.netlify.app/sitemap.xml
