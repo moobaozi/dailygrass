@@ -1,0 +1,108 @@
+baseURL: "https://dailygrass.netlify.app"
+languageCode: "en-us"
+title: "DailyGrass"
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: DailyGrass
+  description: "Your daily dose of political news — fresh, clear, and unbiased."
+  keywords: [politics, news, daily, current affairs]
+  author: DailyGrass
+  images: ["/images/og-default.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: true
+
+  label:
+    text: "DailyGrass"
+    icon: /images/logo.svg
+    iconHeight: 32
+
+  homeInfoParams:
+    Title: "DailyGrass"
+    Content: "Your daily dose of political news — curated, rewritten, and delivered fresh every day."
+
+  socialIcons:
+    - name: rss
+      url: "/index.xml"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+    linkFullImages: true
+    responsiveImages: true
+
+  search:
+    enable: true
+    target: "static"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
