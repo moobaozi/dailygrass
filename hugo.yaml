@@ -51,6 +51,9 @@ params:
     icon: /images/logo.svg
     iconHeight: 32
 
+  mainSections:
+    - posts
+
   homeInfoParams:
     Title: "DailyGrass"
     Content: "Your daily dose of political news — curated, rewritten, and delivered fresh every day."
